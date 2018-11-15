@@ -118,6 +118,22 @@ a {
 	background-color: transparent;
 }
 
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+template {
+	display: none;
+}
+
+[hidden] {
+	display: none;
+}
+
 a.no-style {
 	color: inherit;
 }
@@ -135,23 +151,6 @@ a.no-style.underline:hover {
 	text-decoration: underline;
 }
 
-details {
-	display: block;
-}
-
-summary {
-	display: list-item;
-}
-
-template {
-	display: none;
-}
-
-
-[hidden] {
-	display: none;
-}
-
 .light {
 	font-weight: lighter !important;
 }
@@ -162,6 +161,10 @@ template {
 
 .hidden {
 	display: none;
+}
+
+.text-inherit {
+	color: inherit;
 }
 
 .text-white {
